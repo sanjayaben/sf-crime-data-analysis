@@ -19,7 +19,7 @@ with value 1000 --> 3321 records processed.
 Therefore value of **1000** was choosen to be the best value although higher values were not tried.
 
 #### maxRatePerPartition
-With the above value fixed the maxRatePerPartition value was varied
+With the above value fixed the maxRatePerPartition value was varied. 
 with value 50 --> 14 batches.   
 with value 100 --> 15 batches.   
 with value 1000 --> 12 batches.  
@@ -31,6 +31,6 @@ The focus here was to maximize the CPU usage, using the combination of ***spark.
 
 with values spark.executor.cores=1 and spark.cores.max=2 --> 13 batches. 
 with values spark.executor.cores=2 and spark.cores.max=4 --> 15 batches. 
-with values spark.executor.cores=4 and spark.cores.max=8 --> 14 batches  
+with values spark.executor.cores=4 and spark.cores.max=8 --> 14 batches. 
 
 The combination **spark.executor.cores=2 and spark.cores.max=4** was considered to be the best combination of values. 
